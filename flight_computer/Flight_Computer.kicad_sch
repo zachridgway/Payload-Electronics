@@ -7643,32 +7643,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Male") (at 134.62 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2875cc79-be52-443d-973a-c115fa048432)
-    (property "Reference" "J?" (at 135.255 138.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x02_Male" (at 135.255 140.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 134.62 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 134.62 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c68fbab7-faad-4774-b8a0-9554378975be))
-    (pin "2" (uuid 90d32df2-6be4-4a68-a417-0d975edd0fc6))
-    (instances
-      (project "Flight_Computer"
-        (path "/ac775286-301e-45e2-ba88-36489bae5295"
-          (reference "J?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 400.05 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 291e6d25-1c1f-4680-8ca9-13d590de3d0d)
